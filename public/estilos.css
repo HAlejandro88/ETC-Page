@@ -1,0 +1,437 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.inicio1{
+    background-color:#A4C05A;
+}
+.inicio:hover{
+    background-color:#A4C05A;
+    height: 40px;
+    width: 90px;
+    /* color:'#A4C05A' */
+}
+.nosotros:hover{
+    background-color:#A4C05A;
+    
+}
+.capacitaciones:hover{
+    background-color:#A4C05A;
+    
+}
+.contacto:hover{
+    background-color:#A4C05A;
+     
+}
+.cuadrado{
+    width: 10px; 
+    height: 240px; 
+    background: #A4C05A;
+}
+.etc{
+    width: 20%;
+    height: 20%;
+}
+.redesSociales{
+    width: 25px;
+    height: auto;
+}
+.redesSociales:hover{
+    width: 40px;
+    height: 50px;
+}
+.conoce{
+    color: #fff !important;
+    background-color: #A4C05A;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    border: 2px solid;
+    border-color: #A4C05A;
+    position: relative;
+    float: right;
+}
+.conoce:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  }
+  .conoce:hover:before {
+    height: 100%;
+  }  
+.azul1{
+    color: #4668A9;
+    
+}
+.azul2{
+    color: #476AAA;
+    
+}
+.azul3{
+    color: #5080B9;
+    
+}
+.azul4{
+    color: #60A0BE;
+    
+}
+.verde1{
+    color: #748740;
+    
+}
+.verde2{
+    color: #A4C05A;
+    
+}
+.gris1{
+    color: #3E3E3D;
+    
+}
+.blanco{
+    color: #fff;
+}
+.tam1{
+    font-size: 50px
+}
+.tam2{
+    font-size: 40px;
+}
+.tam3{
+    font-size: 30px;
+}
+.tam4{
+    font-size: 20px;
+}
+.tam5{
+    font-size: 10px;
+}
+.tam6{
+    font-size: 15px;
+}
+.textcentro{
+    text-align: center;
+    margin: 0px 70px;
+}
+.textder{
+    float: right;
+}
+.textizq{
+    float: left;
+}
+.tenemos{
+    color: #60A0BE;
+    font-size: 30px;
+    text-align: center;
+}
+.quienes{
+    font-size: 60px;
+    color: #5080b9;
+    margin: 0px 30px;
+}
+.titulo{
+    font-size: 50px;
+    color: #60A0BE;
+    margin: 0px 10px;
+}
+.lineainicio{
+    border-style: solid;
+    width: 8px;
+    height: 265px;
+    margin: 10px 20px;
+    border-color: #A4C05A;
+    background-color: #A4C05A;
+}
+.lineaquienes{
+    border-style: solid;
+    width: 10px;
+    height: 100px;
+    margin: 10px 30px;
+    border-color: #A4C05A;
+    background-color: #A4C05A;
+}
+.margen{
+    margin: 5px 40px;
+    text-align: justify;
+}
+.mision{
+    text-align: center;
+    background: #60A0BE;
+}
+.vision{
+    text-align: center;
+    background: #A4C05A
+}
+.valores{
+    text-align: center;
+    background: #4668A9;
+}
+.textcasco{
+    text-align: center;
+    margin: 15px 100px;
+}
+.monos{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.mas{
+    height:30px;
+    width: auto;
+    margin: 0px 20px;
+}
+.triangulos{
+    width: 30%;
+    height: auto;
+}
+.logos{
+    
+    width: 20%;
+    height: auto;
+    margin: 0px 150px;
+}
+.fondomis{
+    background: #60A0BE;
+    color: #fff;
+    text-align: justify;
+}
+.fondovis{
+    background: #A4C05A;
+    color: #fff;
+    text-align: justify;
+}
+.fondoval{
+    background: #5080B9;
+    color: #fff;
+    text-align: justify;
+}
+.textnuestros{
+    margin: 60px 10px;
+    text-align: center;
+}
+.textmis{
+    margin: 20px 50px;
+    text-align: justify;
+    font-size: 15px;
+
+}
+.textvis{
+    margin: 20px 50px;
+    text-align: justify;
+    font-size: 15px;
+}
+.textval{
+    margin: 0px 120px;
+    text-align: left;
+    font-size: 19px;
+}
+.imgmis{
+    width: 50%;
+    height: 20%;
+    margin: 20px 70px;
+}
+.imgvis{
+    width: 30%;
+    height: 20%;
+    margin: 20px 100px;
+}
+.inges{
+    width: 110%;
+    height: 100%;
+}
+.textinges{
+    font-size: 30px;
+    text-align: justify;
+    margin: 5px 20px;
+}
+.expertos{
+    font-size: 25px;
+    margin: 50px 20px;
+}
+.triangulo1{
+    float: left;
+    margin: 20px 100px;
+}
+.triangulo2{
+    float: right;
+
+}
+.fondogris{
+    background: #F2F1F1;
+}
+.evaluaciones{
+    margin: 10px 50px;
+    font-size: 11px;
+    text-align: center; 
+    color: #5080B9;
+    font-size: 35px;
+}
+.fondoazul{
+    background: #60A0BE;
+}
+.margen1{
+    margin: 0px 180px;
+}
+.cuadrado1{
+    border: #A4C05A; 
+    border-style: solid;
+    background-color:white;
+    width: 300px;
+    height: 300px;
+    border-color: #A4C05A;
+    margin: 10px 50px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 5px;  
+}
+.acredit{
+    background-color: #60A0BE;
+    color: #fff;
+    text-align: right;
+    border-radius: 5px;
+    font-size: 27px;
+    margin: 0px 10px;
+}
+.CE0093{
+    color: #60A0BE;
+    text-align: right;
+    margin: 0px 10px;
+    font-size: 30px;
+}
+.lineacapa{
+    border-style: solid;
+    width: 10px;
+    height: 60px;
+    margin: 10px 20px;
+    border-color: #A4C05A;
+    background-color: #A4C05A;
+}
+.btnmenu {
+    background-color: transparent;
+    color:bold #5080b9;
+}
+.btnmenu:hover {
+    cursor: pointer;
+    background-color: #A4C05A;
+    border-radius: 18px;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+
+}
+.lineatav{
+    margin-top:0px; 
+    background-color: green;
+    height: 1.5px;
+}
+.lineatav:hover {
+    color: transparent;
+}
+
+.azul3:hover {
+    color: white;
+}
+
+.capa{
+    color: #60A0BE;
+    margin: 0px 30px;
+}
+.registro{
+    background: #60A0BE;
+    color: #fff;
+    margin: 20px 100px;
+    width: auto;
+}
+.stps{
+    text-align: center;
+    margin: 10px 100px;
+    font-size: 18px;
+}
+.cata{
+    background-color: #A4C05A;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 10px;
+}
+.contamos{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 30px;
+}
+.curso{
+    color: #A4C05A;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 25px;
+}
+.nuestra{
+    color: #60A0BE;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 30px;
+}
+.imgauto{
+    text-align: center;
+    width: 15%;
+    height: auto;
+    margin: 10px 100px;
+}
+.imgigasa{
+    text-align: center;
+    width: 15%;
+    height: auto;
+    margin: 10px 100px;
+}    
+.expertos{
+    text-align: center;
+    color: #fff;
+    background-color: #A4C05A;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+.iconoscont{
+    width: 25px;
+    height: auto;
+    margin: 0px 15px;
+}
+.contact{
+    text-align: left;
+    margin: 0px 30px;
+}
+.siguenos{
+    text-align: center;
+    margin: 0px 15px;
+}
+.footer {
+    height: 25%;
+    width: 100%;
+    padding: 5px 0px;
+    border-top: 2px;
+    position: absolute;
+}
+.imgfoot{
+    height:15%;
+    width: 15%;
+    margin: 5px 80px;
+}
+.espacio{
+    margin: 10px 60px;
+}
+.fondo{
+    background:url(img/puntos_esq_der.png)
+}
