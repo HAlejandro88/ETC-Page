@@ -37,12 +37,39 @@
     height: 20%;
 }
 .redesSociales{
+    background-color: transparent;
     width: 25px;
     height: auto;
 }
-.redesSociales:hover{
-    width: 40px;
-    height: 50px;
+.btnred{
+    background-color: transparent;
+}
+.btnmenu {
+    background-color: transparent;
+    color: #5080b9;
+}
+.btnmenu:hover {
+    cursor: pointer;
+    background-color: #A4C05A;
+    border-radius: 18px;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+
+}
+.lineatav{
+    margin-top:0px; 
+    background-color: #A4C05A;
+    height: 1.5px;
+}
+.lineatav:hover {
+    color: transparent;
+}
+.azul7{
+    color: #5080B9;
+}
+.azul7:hover {
+    color: white;
 }
 .conoce{
     color: #fff !important;
@@ -55,6 +82,7 @@
     border-color: #A4C05A;
     position: relative;
     float: right;
+    margin: 15px 10px;
 }
 .conoce:before {
     content:"";
@@ -220,18 +248,18 @@
     text-align: center;
 }
 .textmis{
-    margin: 20px 50px;
+    margin: 30px 50px;
     text-align: justify;
     font-size: 15px;
 
 }
 .textvis{
-    margin: 20px 50px;
+    margin: 30px 50px;
     text-align: justify;
     font-size: 15px;
 }
 .textval{
-    margin: 0px 120px;
+    margin: 30px 100px;
     text-align: left;
     font-size: 19px;
 }
@@ -246,13 +274,13 @@
     margin: 20px 100px;
 }
 .inges{
-    width: 110%;
+    width: 100%;
     height: 100%;
 }
 .textinges{
-    font-size: 30px;
+    font-size: 24px;
     text-align: justify;
-    margin: 5px 20px;
+    margin: 10px 20px;
 }
 .expertos{
     font-size: 25px;
@@ -318,32 +346,6 @@
     border-color: #A4C05A;
     background-color: #A4C05A;
 }
-.btnmenu {
-    background-color: transparent;
-    color:bold #5080b9;
-}
-.btnmenu:hover {
-    cursor: pointer;
-    background-color: #A4C05A;
-    border-radius: 18px;
-    margin: 0px;
-    padding: 5px;
-    color: white;
-
-}
-.lineatav{
-    margin-top:0px; 
-    background-color: green;
-    height: 1.5px;
-}
-.lineatav:hover {
-    color: transparent;
-}
-
-.azul3:hover {
-    color: white;
-}
-
 .capa{
     color: #60A0BE;
     margin: 0px 30px;
@@ -385,16 +387,16 @@
     margin: 10px 30px;
 }
 .imgauto{
-    text-align: center;
-    width: 15%;
+    /*float: center;*/
+    width: 25%;
     height: auto;
-    margin: 10px 100px;
+    margin: 10px 120px;
 }
 .imgigasa{
-    text-align: center;
-    width: 15%;
+    /*float: center;*/
+    width: 25%;
     height: auto;
-    margin: 10px 100px;
+    margin: 10px 120px;
 }    
 .expertos{
     text-align: center;
@@ -411,7 +413,7 @@
 }
 .contact{
     text-align: left;
-    margin: 0px 30px;
+    margin: 0px 12px;
 }
 .siguenos{
     text-align: center;
@@ -425,13 +427,26 @@
     position: absolute;
 }
 .imgfoot{
-    height:15%;
-    width: 15%;
-    margin: 5px 80px;
+    height:auto;
+    width: 10%;
+    margin: 10px 120px;
 }
 .espacio{
     margin: 10px 60px;
 }
 .fondo{
     background:url(img/puntos_esq_der.png)
+}
+.buzon{
+    margin: 10px 10px;
+}
+.carrusel{
+    max-width: 500px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.btnflechas{
+    color: turquoise;
 }

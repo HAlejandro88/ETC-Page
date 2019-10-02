@@ -6,7 +6,7 @@ const nodemailer = require("nodemailer");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + '/public'));
 
-/* app.post("/contacto", function(req, res) {
+ app.post("/contacto", function(req, res) {
     let contacto = req.body.contacto;
     const output = `
         <p>Tienes una nueva solicitud!!!!</p>
@@ -43,7 +43,7 @@ app.use(express.static(__dirname + '/public'));
         }
     })
     res.render('ok');
-})  */
+}) 
 
 const server = app.listen(process.env.PORT || 3000, () => {
   console.log('Esta Vivo');
